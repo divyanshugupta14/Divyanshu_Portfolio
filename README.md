@@ -1,6 +1,6 @@
 <h1>My personal portfolio which features some of my github projects as well as my resume and technical skills.</h1>
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![Portfolio Website](https://raw.githubusercontent.com/divyanshugupta14/Divyanshu_Portfolio/main/public/images/1.png)
 
 <h1>Built With</h1>
 
