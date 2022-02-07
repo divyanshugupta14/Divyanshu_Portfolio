@@ -15,9 +15,9 @@ This project was built using these technologies.
 
 <h1>🛠 Installation and Setup Instructions</h1>
 <ol>
-  <li>Installation: run <code>npm install</code></li>
+  <li>Installation: run <code>npm install</code> or <code>npm i</code></li>
 
-<li>In the project directory, you can run: <code>npm start</code></li>
+<li>In the project directory, you can run: <code>npm run dev</code></li>
 </ol>
 
 Runs the app in the development mode.
