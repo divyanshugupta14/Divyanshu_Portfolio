@@ -9,9 +9,9 @@ const Technologies = () =>  (
     <SectionDivider />
     <br /><br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
+    {/* <SectionText>
       I've Worked with a range of technologies in the web development world.  
-    </SectionText>
+    </SectionText> */}
     <List>
       <ListItem>
         

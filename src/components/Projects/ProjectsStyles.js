@@ -30,6 +30,7 @@ export const BlogCard = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
+  min-height: 500px;
 `;
 export const TitleContent = styled.div`
   text-align: center;

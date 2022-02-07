@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { AiFillGithub, AiFillGitlab, AiFillHome, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { DiCodepen, DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -11,7 +11,10 @@ const Header = () =>  (
       <Div1>
         <Link href='/'>
           <a style={{display: 'flex', color: 'white', alignItems: 'center', marginBottom: '20px'}}>
-            <DiCssdeck size='3rem' /><Span>Portfolio</Span>
+            <DiCodepen size='3rem' /><Span>Portfolio</Span>
+            
+            {/* <AiFillHome size='1.8rem' style={{marginRight: '5px'}}/> 
+            <div style={{marginTop: '3px'}}>Portfolio</div> */}
           </a>
         </Link>
       </Div1>
@@ -31,21 +34,21 @@ const Header = () =>  (
             <NavLink>About</NavLink>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href='#about'>
             <NavLink>Contact</NavLink>
           </Link>
-        </li>
+        </li> */}
       </Div2>
       <Div3>
-        <SocialIcons href='https://github.com'>
+        <SocialIcons href='https://github.com/divyanshugupta14' target='_blank'>
           <AiFillGithub size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://linkedin.com'>
+        <SocialIcons href='https://www.linkedin.com/in/divyanshu-gupta-14052000/' target='_blank'>
           <AiFillLinkedin size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://instagram.com'>
-          <AiFillInstagram size='3rem' />
+        <SocialIcons href='https://gitlab.com/divyanshugupta14' target='_blank'>
+          <AiFillGitlab size='3rem' />
         </SocialIcons>
       </Div3>
     </Container>

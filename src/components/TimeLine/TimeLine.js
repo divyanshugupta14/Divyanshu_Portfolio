@@ -46,7 +46,12 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Coding is my Passion and I try everyday to be better than who I was yesterday 
+        <ol>
+          <li>- I am pursuing my B. Tech(CS) from Poornima College of Engineering, Jaipur (2018-2022 Batch).</li>
+          <li>- Currently working as Associate Software Engineer for Synoriq Pvt. Ltd, Jaipur</li>
+          <li>- Working on key core technologies such as React.js, TypeScript working on Employee Portal for AU Small Finance Bank, and FM Connect tool by Finmechanics.</li>
+          <li>- I love to code and everyday I try to be better than the person I was yesterday.</li>
+        </ol>
         {/* <br /> <br /> */}
         {/* Mobile: +91 9680105330 <br />
         Email: divyanshu14may@gmail.com */}
